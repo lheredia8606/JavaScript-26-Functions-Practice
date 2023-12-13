@@ -12,7 +12,12 @@
  */
 
 // Your code goes here...
-
+function getDiffTwentySeven(num){
+  let diff = 27 - num;
+  if (diff < 0)
+    return diff * -1 * 2;
+  return diff;
+}
 
 
 
@@ -24,7 +29,11 @@
  */
 
 // Your code goes here
-
+function sumOfTwoIntegers(num1, num2){
+  if(num1 === num2)
+    return num1 * 6;
+  return num1 + num2;
+}
 
 
 
@@ -38,7 +47,11 @@
  */
 
 // Your code goes here...
-
+function isOneOfThemOrTheirSumIsFourty(num1 , num2){
+  if(num1 === 40 || num2 === 40 || num1 + num2 === 40)
+    return true;
+  return false;
+}
 
 
 
